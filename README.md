@@ -14,7 +14,6 @@ Built a Python-based volatility-regime strategy that estimates rolling GJR-GARCH
 - Generates lagged trading signals to reduce look-ahead bias.
 - Includes commission assumptions in the backtest.
 - Reports CAGR, Sharpe, Sortino, Calmar, drawdown, win rate, and regime diagnostics.
-- Automatically saves CSV tables and PNG charts to `outputs/`.
 
 ## Methodology
 
