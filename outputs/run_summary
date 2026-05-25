@@ -1,0 +1,154 @@
+======================================================================
+GJR-GARCH TWO-REGIME STRATEGY - COMPREHENSIVE REPORT
+======================================================================
+
+----------------------------------------------------------------------
+CONFIGURATION
+----------------------------------------------------------------------
+  Ticker:                    TSLA
+  Benchmark:                 ^GSPC
+  Period:                    2010-01-01 to 2025-12-31
+  GARCH Window:              252 days
+  Volatility Threshold:      60.0th percentile
+  Low Vol Weight:            100%
+  High Vol Weight:           0%
+  Commission per Share:      $0.005
+  Minimum Commission:        $1.0
+
+----------------------------------------------------------------------
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Metric                                Strategy       Benchmark
+----------------------------------------------------------------------
+  Total Return                        617.13%        430.21%
+  CAGR                                  0.147          0.123
+  Annual Volatility                    34.54%         17.43%
+  Sharpe Ratio                          0.425          0.705
+  Sortino Ratio                         0.465          0.862
+  Max Drawdown                        -51.31%        -33.92%
+  Calmar Ratio                          0.286          0.362
+
+----------------------------------------------------------------------
+REGIME ANALYSIS
+----------------------------------------------------------------------
+  Total Trading Days:        3,628
+  Low Volatility Days:       1,903 (52.5%)
+  High Volatility Days:      1,725 (47.5%)
+  Regime Switches:           267
+
+----------------------------------------------------------------------
+EXPOSURE & TRADING
+----------------------------------------------------------------------
+  Days Invested:             1,902 (52.4%)
+  Days in Cash:              1,726 (47.6%)
+  Total Commissions Paid:    $29,958.14
+
+----------------------------------------------------------------------
+TRADE STATISTICS
+----------------------------------------------------------------------
+  Win Rate:                  48.7%
+  Average Win:               2.155%
+  Average Loss:              -1.776%
+  Profit Factor:             1.15
+  Correlation to Benchmark:  0.217
+
+----------------------------------------------------------------------
+DRAWDOWN ANALYSIS
+----------------------------------------------------------------------
+  Strategy Max DD Duration:  931 days
+  Benchmark Max DD Duration: 512 days
+
+----------------------------------------------------------------------
+REGIME RETURN BREAKDOWN
+----------------------------------------------------------------------
+  Avg Daily Return (Invested):  0.1554%
+  Avg Daily Return (Cash):      -0.0077%
+
+======================================================================
+STRATEGY SUMMARY
+======================================================================
+  Strategy OUTPERFORMS benchmark by 2.38% CAGR
+  Risk-adjusted returns (Sharpe) are WORSE than benchmark
+  Maximum drawdown is HIGHER than benchmark (-51.3% vs -33.9%)
+  Strategy was invested 52.4% of the time
+======================================================================
+
+(base) yisen@192 P % /opt/anaconda3/bin/python "/Users/yisen/Downloads/P/GJR- GARCH/GJR-GARCH"
+2026-05-25 13:51:39.185 python[7376:175472] +[IMKClient subclass]: chose IMKClient_Legacy
+2026-05-25 13:51:39.185 python[7376:175472] +[IMKInputSession subclass]: chose IMKInputSession_Legacy
+2026-05-25 13:53:19.908 python[7376:175472] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+
+======================================================================
+GJR-GARCH TWO-REGIME STRATEGY - COMPREHENSIVE REPORT
+======================================================================
+
+----------------------------------------------------------------------
+CONFIGURATION
+----------------------------------------------------------------------
+  Ticker:                    TSLA
+  Benchmark:                 ^GSPC
+  Period:                    2010-01-01 to 2025-12-31
+  GARCH Window:              252 days
+  Volatility Threshold:      60.0th percentile
+  Low Vol Weight:            100%
+  High Vol Weight:           0%
+  Commission per Share:      $0.005
+  Minimum Commission:        $1.0
+
+----------------------------------------------------------------------
+PERFORMANCE METRICS
+----------------------------------------------------------------------
+Metric                                Strategy       Benchmark
+----------------------------------------------------------------------
+  Total Return                        617.13%        430.21%
+  CAGR                                  0.147          0.123
+  Annual Volatility                    34.54%         17.43%
+  Sharpe Ratio                          0.425          0.705
+  Sortino Ratio                         0.465          0.862
+  Max Drawdown                        -51.31%        -33.92%
+  Calmar Ratio                          0.286          0.362
+
+----------------------------------------------------------------------
+REGIME ANALYSIS
+----------------------------------------------------------------------
+  Total Trading Days:        3,628
+  Low Volatility Days:       1,903 (52.5%)
+  High Volatility Days:      1,725 (47.5%)
+  Regime Switches:           267
+
+----------------------------------------------------------------------
+EXPOSURE & TRADING
+----------------------------------------------------------------------
+  Days Invested:             1,902 (52.4%)
+  Days in Cash:              1,726 (47.6%)
+  Total Commissions Paid:    $29,958.14
+
+----------------------------------------------------------------------
+TRADE STATISTICS
+----------------------------------------------------------------------
+  Win Rate:                  48.7%
+  Average Win:               2.155%
+  Average Loss:              -1.776%
+  Profit Factor:             1.15
+  Correlation to Benchmark:  0.217
+
+----------------------------------------------------------------------
+DRAWDOWN ANALYSIS
+----------------------------------------------------------------------
+  Strategy Max DD Duration:  931 days
+  Benchmark Max DD Duration: 512 days
+
+----------------------------------------------------------------------
+REGIME RETURN BREAKDOWN
+----------------------------------------------------------------------
+  Avg Daily Return (Invested):  0.1554%
+  Avg Daily Return (Cash):      -0.0077%
+
+======================================================================
+STRATEGY SUMMARY
+======================================================================
+  Strategy OUTPERFORMS benchmark by 2.38% CAGR
+  Risk-adjusted returns (Sharpe) are WORSE than benchmark
+  Maximum drawdown is HIGHER than benchmark (-51.3% vs -33.9%)
+  Strategy was invested 52.4% of the time
+======================================================================
